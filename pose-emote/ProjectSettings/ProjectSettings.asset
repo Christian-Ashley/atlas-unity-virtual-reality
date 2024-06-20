@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 58d539af92efc4a479fc5f1c56518353
+  productGUID: c9224d96e40af074cbc4e6e05edf4991
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -140,8 +140,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: -8504957663980034285, guid: 29ce543d1a950d84d9a5fddb7b031a80, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +160,9 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DefaultCompany.poseemote
+    Standalone: com.DefaultCompany.pose-emote
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -169,7 +170,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 22
+  AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -845,12 +846,12 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: e1e64709-c384-446c-9705-836e09195776
+  cloudProjectId: de3ae3b4-9d74-4a95-8070-ba438f871d47
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: pose-emote
+  projectName: pose-emote 2024-06-17_14-16-16
   organizationId: christianashley
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
