@@ -5290,7 +5290,7 @@ MonoBehaviour:
     trackingRotationOffset: {x: 45, y: 0, z: 0}
   turnSmoothness: 0
   ikHead: {fileID: 988672354}
-  headBodyOffset: {x: 0, y: -1.423, z: 0}
+  headBodyOffset: {x: 0, y: -1.68, z: 0}
 --- !u!4 &6773494695569441488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5940280049645198758, guid: 9ff24b19550139e46a29223cef198d3b, type: 3}
